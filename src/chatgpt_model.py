@@ -23,7 +23,7 @@ y = df.loc[:,df.columns == col]
 X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_state=42)
 
 # Traing model
-rf = RandomForestClassifier(random_state=42,n_estimators=1,
+rf = RandomForestClassifier(random_state=42,n_estimators=150,
                             max_depth=None,min_samples_split=2,
                             min_samples_leaf=1)
 

@@ -1,0 +1,6 @@
+scikit-learn==1.2.1
+_tflow_select==0.1
+zlib==1.2.13
+abseil-cpp==20210324.2
+tensorflow==2.4.1
+auto-sklearn
