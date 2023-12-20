@@ -115,11 +115,11 @@ def get_multiclass_labels(labels):
     return multiclass_labels
 
 
-def write_dataset(dataset,file_name):
+def write_obj(dataset,file_name):
     with open(file_name,"wb") as dataset_file:
         dump(dataset,dataset_file)
 
-def read_dataset(file_name):
+def read_obj(file_name):
     with open(file_name,'rb') as dataset_file:
         dataset = load(dataset_file)
     return dataset

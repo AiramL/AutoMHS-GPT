@@ -23,8 +23,8 @@ y = df.loc[:,df.columns == col]
 X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_state=42)
 
 # Traing model
-clf = ak.StructuredDataClassifier()
-clf.fit(X_train,y_train,epochs=10)
+clf = ak.StructuredDataClassifier(max_trials=20)
+clf.fit(X_train,y_train,epochs=100)
 
 # Test model
 y_pred = clf.predict(X_test)
