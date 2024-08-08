@@ -1,4 +1,4 @@
-# AutoGPT
+# Info
 
 Source code developed in the paper "AutoMHS-GPT: Automação de Seleção de Modelos e Hiperparâmetros por meio de Modelo Generativo para Detecção de Anomalias em Redes Veiculares"
 
